@@ -3,7 +3,8 @@
 1.**Upload Your Website Files**
 - Go to the S3 Console
 - Select the bucket: mystaticwerj25
-- Click Upload
+- download static code file from (https://drive.google.com/drive/folders/1gz9Cm2KBy2TZkdIIpXYX-_qM_ytpkvWI?usp=drive_link)
+- upload the filr by draging all selected file to the bucket
 - Add your website files (e.g. index.html, style.css, etc.)
 - Make sure they have public read access (you’ll configure that below)
 
