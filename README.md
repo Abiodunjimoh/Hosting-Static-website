@@ -2,7 +2,7 @@
 
 1.**Upload Your Website Files**
 - Go to the S3 Console
-- Select the bucket: mystaticwerj25
+- create and select Select the bucket: mystaticwerj25
 - download static code file from (https://drive.google.com/drive/folders/1gz9Cm2KBy2TZkdIIpXYX-_qM_ytpkvWI?usp=drive_link)
 - upload the filr by draging all selected file to the bucket
 - Add your website files (e.g. index.html, style.css, etc.)
@@ -29,7 +29,7 @@ Edit
       "Resource": "arn:aws:s3:::mystaticwerj25/*"
     }
   ] 
-}``` </pre>  
+} </pre>  
 
 4. **Disable Block Public Access**
 - If not already done: Go to Permissions > Block public access Click Edit
