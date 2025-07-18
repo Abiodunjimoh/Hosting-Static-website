@@ -1,13 +1,16 @@
 # Hosting Static website with AWS S3 bucket
+
 1.**Upload Your Website Files**
 - Go to the S3 Console
 - Select the bucket: mystaticwerj25
 - Click Upload
 - Add your website files (e.g. index.html, style.css, etc.)
 - Make sure they have public read access (you’ll configure that below)
+
 2.**Enable Static Website Hosting**
 - Go to the Properties tab of the bucket
 - Scroll down to Static website hosting Click Edit Select Enable Enter: Index document: index.html and Error document: error.html
+
 3. **Set Public Read Access Policy**
 - Paste the following bucket policy in the Permissions > Bucket Policy section:
 
@@ -26,6 +29,7 @@ Edit
     }
   ] 
 }``` </pre>  
+
 4. **Disable Block Public Access**
 - If not already done: Go to Permissions > Block public access Click Edit
 - Uncheck “Block all public access” Confirm changes
